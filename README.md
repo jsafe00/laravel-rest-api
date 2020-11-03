@@ -1,35 +1,35 @@
 <a href="https://www.buymeacoffee.com/jsafe00" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" style="height: 51px !important;width: 217px !important;" ></a>
 
-##Laravel 8 Rest API CRUD With Passport Auth
+## Laravel 8 Rest API CRUD With Passport Auth
 
-###Composer Install
+### Composer Install
 ```
 composer install
 ```
 
-###Generate Key
+### Generate Key
 ```
 php artisan key:generate
 ```
 
-###Run Migration
+### Run Migration
 ```
 php artisan migrate
 ```
 
-###Passport Install
+### Passport Install
 ```
 php artisan passport:install
 ```
 
-###API EndPoints
+### API EndPoints
 
-####Register:
+#### Register:
 ```
 http://{localhost}/api/register
 http://{localhost}/api/login
 ```
-####Post
+#### Post
 ```
 GET All http://{localhost}/api/products
 GET Single http://{localhost}/api/products/1
